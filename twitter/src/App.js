@@ -23,7 +23,7 @@ function App() {
     <Navbar/>
     </div>
    
-    <div className="col-5">
+    <div className="col-5" style={{width:"600px"}}>
     <Routes>
     <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />

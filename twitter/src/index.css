@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  overflow-x: hidden;
 }
 
 code {
@@ -25,7 +26,7 @@ code {
  }
 .postbtn{
   color:white;
-  background-color:#5AB2FF;
+  background-color:#1D9BF0;
   width:220px;
   height:50px;
   text-align: center;
@@ -41,17 +42,21 @@ code {
   margin-top: 4px;
 
 }
+.nav{
+  position: fixed;
+}
 
 
 /* home page */
 .heading{
   color: white;
   height: 55px;
-  width: 290px;
+  width: 305.6px;
   display: flex;
   justify-content:center;
   padding-top: 14px;
   border-bottom: 1px rgb(54, 54, 54) solid;
+  
 }
 .heading {
   text-decoration: none;
@@ -69,15 +74,16 @@ code {
   bottom: 0;
   height: 4px; /* Thickness of the pill underline */
   width: 60px;
-  background-color: #007bff; /* Active link color */
+  background-color:#1D9BF0; /* Active link color */
   border-radius: 3px; /* Make the underline pill-shaped */
 }
 .what{
   font-size:21px;
   color: rgb(118, 115, 115);
+  
 }
 .post{
-  width: 580px;
+  width: 612px;
   padding-bottom: 48px;
   border-bottom:1px rgb(54, 54, 54) solid ;
   height: 45px;
@@ -86,11 +92,22 @@ code {
 .homeimg{
 padding-right: 20px;
 padding-top: 8px;
+cursor: pointer;
 
 }
 .he{
   margin-left: 55px;
 }
 .bt{
-  margin-right: -220px;
+  margin-left: 255px;
+  width:40px;
+}
+.pb{
+  background-color:#1D9BF0;
+
+}
+
+/* for you */
+.posticon{
+  cursor: button;
 }
