@@ -12,6 +12,7 @@ const Home = () => {
       <div className="row" style={{position:"fixed",backgroundColor:"black",borderRight:"1px rgb(54, 54, 54) solid "}}>
         <Link
           className={`col-2 heading ${activeLink === 'forYou' ? 'active' : ''}`}
+          style={{color: activeLink === 'forYou' ? "white" : "grey"}}
           onClick={() => setActiveLink('forYou')}
           to="#"
         >
@@ -19,6 +20,7 @@ const Home = () => {
         </Link>
         <Link
           className={`col-2 heading ${activeLink === 'following' ? 'active' : ''}`}
+          style={{color: activeLink === 'following' ? "white" : "grey"}}
           onClick={() => setActiveLink('following')}
           to="#"
         >

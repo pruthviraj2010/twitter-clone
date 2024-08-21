@@ -111,3 +111,22 @@ cursor: pointer;
 .posticon{
   cursor: button;
 }
+
+/* sidebar */
+.profile-row {
+  transition: background-color 0.1s ease;
+}
+
+.profile-row:hover {
+  background-color: #2e2b2b; /* Light grey background */
+}
+
+.footer-link {
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

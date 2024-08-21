@@ -11,6 +11,7 @@ import {
   Link,Navigate,
   Routes
 } from "react-router-dom";
+import Sidebar from './Sub-compo/Sidebar.js';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
 
           /*<Route path="/about" element={<About />}/> */}
          </Routes>
+        </div>
+        <div className="col-3">
+          <Sidebar/>
         </div>
         </div>
     </div>
